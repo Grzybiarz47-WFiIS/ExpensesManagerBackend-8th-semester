@@ -19,7 +19,7 @@ public class ExpensesManagerBackendApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**").allowedMethods("*").allowedHeaders("*")
-                        .allowedOrigins("https://expenses-app-zti-front.herokuapp.com");
+                        .allowedOrigins("https://expenses-manger-backend.herokuapp.com/");
             }
         };
     }
