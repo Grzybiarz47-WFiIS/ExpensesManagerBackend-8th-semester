@@ -7,6 +7,7 @@ import project.zti.expensesmanagerbackend.model.Payment;
 import java.util.List;
 
 @RestController(value = "PaymentController")
+@CrossOrigin
 public class PaymentController {
 
     @Autowired
