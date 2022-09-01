@@ -7,7 +7,6 @@ import project.zti.expensesmanagerbackend.model.Payment;
 import java.util.List;
 
 @RestController(value = "PaymentController")
-@CrossOrigin(origins = "https://expenses-manager-backend.herokuapp.com")
 public class PaymentController {
 
     @Autowired
